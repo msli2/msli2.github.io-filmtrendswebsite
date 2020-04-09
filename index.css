@@ -1,6 +1,15 @@
 .introsection {
     background-color: lightblue;
-    z-index:-1;
+}
+
+.filmanalysis {
+    background-color: lightblue;
+    padding-top: 0.5%;
+    padding-bottom: 3%;
+}
+
+.frequencyanalysis, .locationanalysis {
+    padding-bottom: 3%;
 }
 
 h1 {
@@ -20,6 +29,12 @@ h2 {
 }
 
 h4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
     text-align: center;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
