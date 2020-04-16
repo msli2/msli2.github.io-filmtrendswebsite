@@ -1,0 +1,112 @@
+/* main navigation bar for all pages */
+.nav {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0.2%;
+    padding-top: 0.5%;
+}
+
+#intro {
+    background-color: aliceblue;
+}
+
+.nav intro{
+    background-color: aliceblue;
+}
+
+.nav a{
+    color: black;
+}
+
+.navbar-nav a{
+    font-size: medium;
+}
+
+/* introduction section main page */
+.intro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.sectionintro {
+    background-color:aliceblue;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.analysesintros {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.analysesintros a{
+    color: black;
+    text-decoration: none;
+}
+
+.analysesintros a:hover {
+    color: slategray;
+    text-decoration: none;
+}
+
+.col-sm-6 p {
+    padding-top: 2%;
+}
+
+.col-sm-6 img {
+    margin: auto;
+    display: block;
+}
+
+/* subtitle intro */
+.subtitleintro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 7%;
+}
+
+/* tabs for each section of subtitle html*/
+.overallsenti, 
+.overalllocation,
+.sentiover10 {
+    background-color:aliceblue;
+    padding-top: 0.5%;
+    padding-bottom: 3%;
+}
+
+.overallsenti p,
+.sentiover10 p,
+.overalllocation p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.overallsenti a,
+.overalllocation a,
+.sentiover10 a {
+    color: black;
+    text-decoration: none;
+}
+
+.overallsenti a:hover,
+.overalllocation a:hover,
+.sentiover10 a:hover {
+    text-decoration: none;
+}

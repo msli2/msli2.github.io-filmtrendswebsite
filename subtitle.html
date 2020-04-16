@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainpage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="nav navbar-fixed-top" id="intro">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="mainpage.html" style ="font-size: 35px; font-family: 'Lobster';">Film Trends</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="mainpage.html">Home</a></li>
+                <li><a href="subtitle.html">Subtitle Analysis</a></li>
+                <li><a href="film.html">Film Analysis</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="subtitleintro">
+                    <h2 style="font-size: 30px; font-family: 'Lobster';">Subtitle Analysis</h2>
+                    <p>
+                        Welcome to our Subtitle Analyses.
+                        The main aspects that we focus on are sentiment analysis of reoccurring words and location words.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-pills nav-justified">
+        <li class="active"><a data-toggle="pill" href="#OverallSentiment" >Overall Sentiment</a></li>
+        <li><a data-toggle="pill" href="#SentiOver10">Sentiment Over 10</a></li>
+        <li><a data-toggle="pill" href="#OverallLocation">OverallLocation</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="OverallSentiment" class="tab-pane fade in active">
+            <div class="overallsenti">
+                <h3 style ="font-size: 28px; font-family: 'Lobster'; text-align: left; padding-left: 30px;">Overall Sentiment Analysis</h3>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>
+                                Graph 1
+                            </p>
+                            <img src="mainphotos/SentimentBar.png" height = "35%" width = "90%">
+                        </div>
+                        <div class="col-sm-6">
+                            <p>
+                                Graph 2
+                            </p>
+                            <img src="mainphotos/SentimentBar.png" height = "35%" width = "90%">
+                        </div>
+                        <div class="col-sm-6">
+                            <p>
+                                Graph 3
+                            </p>
+                            <img src="mainphotos/SentimentBar.png" height = "35%" width = "90%">
+                        </div>
+                        <div class="col-sm-6">
+                            <p>
+                                Graph 4
+                            </p>
+                            <img src="mainphotos/SentimentBar.png" height = "35%" width = "90%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="SentiOver10" class="tab-pane fade">
+            <div class="sentiover10">
+                <h3 style ="font-size: 28px; font-family: 'Lobster'; text-align: left; padding-left: 30px;">Sentiment Over 10 Analysis</h3>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>
+                                Graph 1
+                            </p>
+                            <img src="mainphotos/NeutralBubble.png" height = "35%" width = "90%">
+                        </div>
+                        <div class="col-sm-6">
+                            <p>
+                                Graph 2
+                            </p>
+                            <img src="mainphotos/NeutralBubble.png" height = "35%" width = "90%">
+                        </div>
+                        <div class="col-sm-6">
+                            <p>
+                                Graph 3
+                            </p>
+                            <img src="mainphotos/NeutralBubble.png" height = "35%" width = "90%">
+                        </div>
+                        <div class="col-sm-6">
+                            <p>
+                                Graph 4
+                            </p>
+                            <img src="mainphotos/NeutralBubble.png" height = "35%" width = "90%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="OverallLocation" class="tab-pane fade">
+            <div class="overalllocation">
+                <h3 style ="font-size: 28px; font-family: 'Lobster'; text-align: left; padding-left: 30px;">Overall Location Analysis</h3>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>
+                                Graph 1
+                            </p>
+                            <img src="mainphotos/PositiveBubble.png" height = "35%" width = "90%">
+                        </div>
+                        <div class="col-sm-6">
+                            <p>
+                                Graph 2
+                            </p>
+                            <img src="mainphotos/PositiveBubble.png" height = "35%" width = "90%">
+                        </div>
+                        <div class="col-sm-6">
+                            <p>
+                                Graph 3
+                            </p>
+                            <img src="mainphotos/PositiveBubble.png" height = "35%" width = "90%">
+                        </div>
+                        <div class="col-sm-6">
+                            <p>
+                                Graph 4
+                            </p>
+                            <img src="mainphotos/PositiveBubble.png" height = "35%" width = "90%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
