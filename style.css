@@ -24,7 +24,7 @@
 /* introduction section main page */
 .intro {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     padding-left: 3%;
     padding-right: 3%;
@@ -44,7 +44,7 @@
 
 .analysesintros {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
@@ -74,11 +74,12 @@
 /* subtitle intro */
 .subtitleintro {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 7%;
+    padding-bottom: 1%
 }
 
 /* tabs for each section of subtitle html*/
@@ -92,7 +93,7 @@
 .subtitleclass p,
 .filmclass p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
 }
 
