@@ -107,3 +107,10 @@
 .filmclass a:hover {
     text-decoration: none;
 }
+
+.col-sm-12 p {
+    padding-left: 10%; 
+    padding-right: 10%;
+    padding-top:1%;
+    padding-bottom: 1%;
+}
