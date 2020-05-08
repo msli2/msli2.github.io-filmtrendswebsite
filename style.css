@@ -36,7 +36,7 @@
     background-color: white;
 }
 
-.sectionintro {
+.sectionintro, .aboutteam {
     background-color:aliceblue;
     padding-top: 1%;
     padding-bottom: 3%;
@@ -67,26 +67,28 @@
 }
 
 /* subtitle intro */
-.subtitleintro {
+.subtitleintro,
+.aboutwebsite {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     text-align: center;
     padding-left: 3%;
     padding-right: 3%;
-    padding-top: 7%;
+    padding-top: 6%;
     padding-bottom: 1%
 }
 
 /* tabs for each section of subtitle html*/
 .subtitleclass,
-.filmclass {
+.filmclass  {
     background-color:aliceblue;
     padding-top: 0.5%;
     padding-bottom: 3%;
 }
 
 .subtitleclass p,
-.filmclass p{
+.filmclass p,
+.aboutteam p {
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     text-align: center;
@@ -109,3 +111,9 @@
     padding-top:0.5%;
     padding-bottom: 1%;
 }
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
