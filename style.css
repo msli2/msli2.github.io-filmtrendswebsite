@@ -102,15 +102,15 @@ img {
     padding: 4%;
 }
 
+/* 12% padding */
+.analysistitle {
+    padding: 12%;
+}
+
 /* 8% padding */
 .subparagraph,
 .abouttitle2,
-.analysistitle2 {
+.analysistitle2,
+.dialoguetitle {
     padding: 8%;    
-}
-
-/* 12% padding */
-.analysistitle,
-.countrytitle {
-    padding: 12%;
 }
