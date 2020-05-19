@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>FILM TRENDS FILM</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md">
+        <div class="w-100">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+            </ul>
+        </div>
+        <a class="navbar-brand ml-auto" href="index.html">FILM TRENDS</a>
+        <div class="navbar-collapse w-100">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="subtitle.html">SUBTITLE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="film.html">FILM</a>
+                </li>
+            </ul>
+        </div>
+    </nav>  
+    <div class="container-fluid">
+        <div class="first">
+            <div class="row">
+                <div class="col-3 offset-1 title">
+                    <h5>FILM ANALYSIS</h5>
+                </div>
+                <div class="col-7">
+                    <p>This project analyzes multiple aspects of films from 1927-2010. The main purpose of this project is to analyze the genres, IMDb ratings and gender breakdown of each film in the dataset.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="list-group sticky-top flex-row">
+        <a href="#imdb" class="list-group-item list-group-item-action">IMDB ANALYSIS</a>
+        <a href="#genre" class="list-group-item list-group-item-action">GENRE ANALYSIS</a>
+        <a href="#dialogue" class="list-group-item list-group-item-action">DIALOGUE ANALYSIS</a>
+    </div>
+    <div class="container-fluid">
+        <div class="analysis"><a name="imdb"></a>
+            <div class="row">
+                <div class="col-2 offset-1 analysistitle">
+                    <h5>IMDB ANALYSIS DASHBOARD</h5>
+                    <p>This dashboard contains two graphs; one contains the genres of each film and the other contains the IMDb rating of each film. You can use the controls on the right to select a film or search for a specific film or year using the search box.</p>
+                </div>
+                <div class="col-8 offset-1">
+                    <div class='tableauPlaceholder' id='viz1589858573881' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GenreIMDbBreakdown&#47;GenreIMDbRatingofEachFilm&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GenreIMDbBreakdown&#47;GenreIMDbRatingofEachFilm' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GenreIMDbBreakdown&#47;GenreIMDbRatingofEachFilm&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1589858573881');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='877px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>                
+                </div>
+            </div>
+        </div>
+        <div class="analysis2"><a name="genre"></a>
+            <div class="row">
+                <div class="col-8">
+                    <div class='tableauPlaceholder' id='viz1589858666760' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GenreIMDbBreakdown&#47;GenreAnalysis&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GenreIMDbBreakdown&#47;GenreAnalysis' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GenreIMDbBreakdown&#47;GenreAnalysis&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1589858666760');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1027px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>                
+                </div>
+                <div class="col-2 offset-1 analysistitle2">
+                    <h5>GENRE ANALYSIS DASHBOARD</h5>
+                    <p>This dashboard analyzes genres, as it contains a stacked bar graph of all the film genres throughout the years. It also has a bubble chart which breaks down the genres with the highest average IMDb rating. You can use the tools to the right to filter through genres, compare different years, and search for specific genres.</p>
+                </div>
+            </div>
+        </div>
+        <div class="analysis"><a name="dialogue"></a>
+            <div class="row">
+                <div class="col-2 offset-1 analysistitle">
+                    <h5>DIALOGUE ANALYSIS DASHBOARD</h5>
+                    <p>This dashboard contains four graphs which analyze the word count broken down by gender for each film, as well as show which actors/ actresses appeared in the film. You can use the tools to the right filter through films, gender, year, and word count. You can also search for or highlight a movie that you want to find within the dataset.</p>
+                </div>
+                <div class="col-8 offset-1">
+                    <div class='tableauPlaceholder' id='viz1589858798654' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;DialogueBreakdown&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DialogueBreakdown&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;DialogueBreakdown&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1589858798654');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1627px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>            
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

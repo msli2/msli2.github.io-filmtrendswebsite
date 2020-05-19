@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+body *
+{
+   font-family: 'Montserrat';
+   color: white;
+   font-size: 15px;
+}
+
+/* navigation bar */
+.navbar {
+    background-color: #252727;
+}
+
+.navbar .navbar-brand {
+    font-size: 28px;   
+}
+
+.navbar a,
+.list-group-item {
+    color: white;
+    font-size: 14px;
+}
+
+/* hover designs */
+.navbar :hover,
+.subtitleintro :hover,
+.filmintro :hover {
+    color: #4E79A7;
+    text-decoration: none;
+}
+
+/* image formatting */
+img {
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+/* dark sections intros */
+.mainintro,
+.aboutintro,
+.first,
+.analysis {
+    background-color: #252727;
+    margin: 0 -20 0 -20;
+}
+
+/* dark sections intro */
+.filmintro {
+    padding-top: 2%;
+    background-color: #252727;
+    margin: 0 -20 0 -20;
+}
+
+/* light sections */
+.subtitleintro,
+.aboutteam,
+.analysis2 {
+    padding-top: 2%;
+}
+
+/* dark text */
+.subtitleintro h5,
+.subtitleintro p,
+.aboutteam h5,
+.aboutteam p,
+.analysistitle2 h5,
+.analysistitle2 p {
+    color: #252727;
+}
+
+/* title */
+.mainintro h5,
+.aboutintro h5,
+.aboutteam h5,
+.first h5 {
+    font-size: 24px;  
+}
+
+/* subtitle */
+.subtitleintro h5,
+.filmintro h5,
+.analysistitle h5,
+.analysistitle2 h5 {
+    font-size: 20px;  
+}
+
+/* different paddings for design */
+/* 3% padding */
+.abouttitle,
+.aboutintro p,
+.title,
+.analysis,
+.analysis2 {
+    padding: 3%;
+}
+
+/* 4% padding */
+.mainparagraph,
+.aboutteam h5,
+.first p {
+    padding: 4%;
+}
+
+/* 8% padding */
+.subparagraph,
+.abouttitle2,
+.analysistitle2 {
+    padding: 8%;    
+}
+
+/* 12% padding */
+.analysistitle,
+.countrytitle {
+    padding: 12%;
+}
