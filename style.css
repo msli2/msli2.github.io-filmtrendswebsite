@@ -10,7 +10,7 @@ body *
 /* navigation bar */
 .navbar {
     background-color: #252727;
-    margin: 0 -15 0 0;
+    margin: 0 -15 0 -10;
 }
 
 .navbar .navbar-brand {
