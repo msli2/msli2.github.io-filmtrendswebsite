@@ -10,7 +10,7 @@ body *
 /* navigation bar */
 .navbar {
     background-color: #252727;
-    margin: 0 -15 0 -10;
+    margin: 0 -15 0 0;
 }
 
 .navbar .navbar-brand {
@@ -24,7 +24,7 @@ body *
 }
 
 .list-group {
-    margin: 0 -15 0 -10;
+    margin: 0 -15 0 0;
 }
 
 /* hover designs */
