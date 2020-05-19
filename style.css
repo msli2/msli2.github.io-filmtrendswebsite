@@ -10,6 +10,7 @@ body *
 /* navigation bar */
 .navbar {
     background-color: #252727;
+    margin: 0 -15 0 0;
 }
 
 .navbar .navbar-brand {
@@ -42,14 +43,14 @@ img {
 .first,
 .analysis {
     background-color: #252727;
-    margin: 0 -20 0 -20;
+    margin: 0 -30 0 -20;
 }
 
 /* dark sections intro */
 .filmintro {
     padding-top: 2%;
     background-color: #252727;
-    margin: 0 -20 0 -20;
+    margin: 0 -30 0 -20;
 }
 
 /* light sections */
