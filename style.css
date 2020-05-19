@@ -1,119 +1,116 @@
-/* main navigation bar for all pages */
-.nav {
-    font-family: 'Montserrat', sans-serif;
-    padding-bottom: 0.2%;
-    padding-top: 0.5%;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+body *
+{
+   font-family: 'Montserrat';
+   color: white;
+   font-size: 15px;
 }
 
-#intro {
-    background-color: aliceblue;
+/* navigation bar */
+.navbar {
+    background-color: #252727;
 }
 
-.nav intro{
-    background-color: aliceblue;
+.navbar .navbar-brand {
+    font-size: 28px;   
 }
 
-.nav a{
-    color: black;
+.navbar a,
+.list-group-item {
+    color: white;
+    font-size: 14px;
 }
 
-.navbar-nav a{
-    font-size: medium;
+/* hover designs */
+.navbar :hover,
+.subtitleintro :hover,
+.filmintro :hover {
+    color: #4E79A7;
+    text-decoration: none;
 }
 
-/* introduction section main page */
-.intro {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 1%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-}
-
-.sectionintro, .aboutteam {
-    background-color:aliceblue;
-    padding-top: 1%;
+/* image formatting */
+img {
+    width: 100%;
     padding-bottom: 3%;
 }
 
-.analysesintros {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+/* dark sections intros */
+.mainintro,
+.aboutintro,
+.first,
+.analysis {
+    background-color: #252727;
+    margin: 0 -20 0 -20;
+}
+
+/* dark sections intro */
+.filmintro {
+    padding-top: 2%;
+    background-color: #252727;
+    margin: 0 -20 0 -20;
+}
+
+/* light sections */
+.subtitleintro,
+.aboutteam,
+.analysis2 {
     padding-top: 2%;
 }
 
-.analysesintros a{
-    color: black;
-    text-decoration: none;
+/* dark text */
+.subtitleintro h5,
+.subtitleintro p,
+.aboutteam h5,
+.aboutteam p,
+.analysistitle2 h5,
+.analysistitle2 p {
+    color: #252727;
 }
 
-.analysesintros a:hover {
-    color: slategray;
-    text-decoration: none;
+/* title */
+.mainintro h5,
+.aboutintro h5,
+.aboutteam h5,
+.first h5 {
+    font-size: 24px;  
 }
 
-.col-sm-6 p {
-    padding-top: 1%;
+/* subtitle */
+.subtitleintro h5,
+.filmintro h5,
+.analysistitle h5,
+.analysistitle2 h5 {
+    font-size: 20px;  
 }
 
-/* subtitle intro */
-.subtitleintro,
-.aboutwebsite {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 6%;
-    padding-bottom: 1%
+/* different paddings for design */
+/* 3% padding */
+.abouttitle,
+.aboutintro p,
+.title,
+.analysis,
+.analysis2 {
+    padding: 3%;
 }
 
-/* tabs for each section of subtitle html*/
-.subtitleclass,
-.filmclass  {
-    background-color:aliceblue;
-    padding-top: 0.5%;
-    padding-bottom: 3%;
+/* 4% padding */
+.mainparagraph,
+.aboutteam h5,
+.first p {
+    padding: 4%;
 }
 
-.subtitleclass p,
-.filmclass p,
-.aboutteam p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    text-align: center;
+/* 8% padding */
+.subparagraph,
+.abouttitle2,
+.analysistitle2 {
+    padding: 8%;    
 }
 
-.subtitleclass a
-.filmclass a{
-    color: black;
-    text-decoration: none;
+/* 12% padding */
+.analysistitle,
+.countrytitle {
+    padding: 12%;
 }
-
-.subtitleclass a:hover,
-.filmclass a:hover {
-    text-decoration: none;
-}
-
-.col-sm-12 p {
-    padding-left: 0.5%; 
-    padding-right: 0.5%;
-    padding-top:0.5%;
-    padding-bottom: 1%;
-}
-
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
