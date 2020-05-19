@@ -23,6 +23,10 @@ body *
     font-size: 14px;
 }
 
+.list-group {
+    margin: 0 -15 0 -10;
+}
+
 /* hover designs */
 .navbar :hover,
 .subtitleintro :hover,
