@@ -104,7 +104,7 @@ img {
 
 /* 12% padding */
 .analysistitle {
-    padding: 12%;
+    padding-top: 12%;
 }
 
 /* 8% padding */
@@ -112,5 +112,5 @@ img {
 .abouttitle2,
 .analysistitle2,
 .dialoguetitle {
-    padding: 8%;    
+    padding-top: 8%;    
 }
