@@ -4,7 +4,7 @@ body *
 {
    font-family: 'Montserrat';
    color: white;
-   font-size: 15px;
+   font-size: 14px;
 }
 
 /* navigation bar */
@@ -103,19 +103,23 @@ img {
 /* 4% padding */
 .mainparagraph,
 .aboutteam h5,
-.first p {
+.first p,
+.analysistitle2 {
     padding: 4%;
 }
 
 /* 12% padding */
-.analysistitle {
+.analysistitle, 
+.countrytitle {
     padding-top: 12%;
 }
 
 /* 8% padding */
 .subparagraph,
-.abouttitle2,
-.analysistitle2,
-.dialoguetitle {
+.abouttitle2 {
     padding-top: 8%;    
+}
+
+.dialoguetitle {
+    padding-top: 6%;    
 }
