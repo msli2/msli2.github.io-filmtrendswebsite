@@ -10,11 +10,11 @@ body *
 /* navigation bar */
 .navbar {
     background-color: #252727;
-    margin: 0 -15 0 0;
+    /* margin: 0 0 0 0; */
 }
 
 .navbar .navbar-brand {
-    font-size: 28px;   
+    font-size: 26px;   
 }
 
 .navbar a,
@@ -23,9 +23,9 @@ body *
     font-size: 14px;
 }
 
-.list-group {
-    margin: 0 -15 0 0;
-}
+/* .list-group {
+    margin: 0 0 0 0;
+} */
 
 /* hover designs */
 .navbar :hover,
@@ -116,10 +116,11 @@ img {
 
 /* 8% padding */
 .subparagraph,
-.abouttitle2 {
+.abouttitle2,
+.dialoguetitle {
     padding-top: 8%;    
 }
 
-.dialoguetitle {
-    padding-top: 6%;    
+.genretitle {
+    padding-top: 6%;
 }
