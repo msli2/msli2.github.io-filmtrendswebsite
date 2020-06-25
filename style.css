@@ -117,11 +117,11 @@ img {
 
 /* 8% padding */
 .subparagraph,
-.dialoguetitle,
-.genretitle {
+.dialoguetitle {
     padding-top: 8%;    
 }
 
-.wordtitle {
+.wordtitle,
+.genretitle {
     padding-top: 6%;
 }
