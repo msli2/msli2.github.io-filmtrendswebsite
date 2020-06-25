@@ -10,7 +10,6 @@ body *
 /* navigation bar */
 .navbar {
     background-color: #252727;
-    /* margin: 0 0 0 0; */
 }
 
 .navbar .navbar-brand {
@@ -23,9 +22,14 @@ body *
     font-size: 14px;
 }
 
-/* .list-group {
-    margin: 0 0 0 0;
-} */
+/* about page cards styling */
+.card a {
+    font-size: 14px;
+}
+
+.card {
+    margin-bottom: 3%;
+}
 
 /* hover designs */
 .navbar :hover,
@@ -42,25 +46,21 @@ img {
 }
 
 /* dark sections intros */
-.mainintro,
-.aboutintro,
-.first,
-.analysis {
+.rowdark {
     background-color: #252727;
-    margin: 0 -30 0 -20;
 }
 
-/* dark sections intro */
-.filmintro {
-    padding-top: 2%;
-    background-color: #252727;
-    margin: 0 -30 0 -20;
+.filmintro img,
+.mainintro img {
+    padding-top: 1%;
+    padding-bottom: 5%;
 }
 
 /* light sections */
 .subtitleintro,
 .aboutteam,
-.analysis2 {
+.analysis2,
+.filmintro {
     padding-top: 2%;
 }
 
@@ -92,7 +92,6 @@ img {
 
 /* different paddings for design */
 /* 3% padding */
-.abouttitle,
 .aboutintro p,
 .title,
 .analysis,
@@ -101,6 +100,7 @@ img {
 }
 
 /* 4% padding */
+.abouttitle,
 .mainparagraph,
 .aboutteam h5,
 .first p,
@@ -110,17 +110,18 @@ img {
 
 /* 12% padding */
 .analysistitle, 
-.countrytitle {
+.countrytitle,
+.abouttitle2 {
     padding-top: 12%;
 }
 
 /* 8% padding */
 .subparagraph,
-.abouttitle2,
-.dialoguetitle {
+.dialoguetitle,
+.genretitle {
     padding-top: 8%;    
 }
 
-.genretitle {
+.wordtitle {
     padding-top: 6%;
 }
