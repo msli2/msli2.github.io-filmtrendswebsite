@@ -91,11 +91,18 @@ img {
 }
 
 /* different paddings for design */
+/* 8% padding */
+.analysistitle, 
+.subparagraph,
+.filmtitle {
+    padding-top: 8%;    
+}
+
 /* 3% padding */
 .aboutintro p,
 .title,
 .analysis,
-.analysis2 {
+.analysis2  {
     padding: 3%;
 }
 
@@ -104,24 +111,14 @@ img {
 .mainparagraph,
 .aboutteam h5,
 .first p,
-.analysistitle2 {
+.analysistitle2,
+.dialoguetitle,
+.wordtitle {
     padding: 4%;
 }
 
 /* 12% padding */
-.analysistitle, 
 .countrytitle,
 .abouttitle2 {
     padding-top: 12%;
-}
-
-/* 8% padding */
-.subparagraph,
-.dialoguetitle {
-    padding-top: 8%;    
-}
-
-.wordtitle,
-.genretitle {
-    padding-top: 6%;
 }
