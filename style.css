@@ -93,9 +93,8 @@ img {
 /* different paddings for design */
 /* 8% padding */
 .analysistitle, 
-.subparagraph,
-.filmtitle {
-    padding-top: 8%;    
+.subparagraph {
+    padding-top: 10%;    
 }
 
 /* 3% padding */
@@ -112,7 +111,6 @@ img {
 .aboutteam h5,
 .first p,
 .analysistitle2,
-.dialoguetitle,
 .wordtitle {
     padding: 4%;
 }
@@ -121,4 +119,9 @@ img {
 .countrytitle,
 .abouttitle2 {
     padding-top: 12%;
+}
+
+.dialoguetitle,
+.genretitle {
+    padding-top: 6%;
 }
