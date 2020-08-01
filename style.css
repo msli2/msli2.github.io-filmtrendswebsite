@@ -100,12 +100,16 @@ img {
     padding-top: 10%;    
 }
 
-.title {
+.title,
+.aboutintro p {
     padding: 3%;
 }
 
+.first p {
+    padding: 5%;
+}
+
 /* 2% padding */
-.aboutintro p,
 .analysis {
     padding: 2%;
 }
@@ -118,7 +122,6 @@ img {
 /* 4% padding */
 .mainparagraph,
 .aboutteam h5,
-.first p,
 .analysistitle2 {
     padding: 4%;
 }
@@ -132,9 +135,12 @@ img {
 }
 
 /* 6% padding */
-.subtitlesub,
 .dialoguetitle,
 .genretitle,
 .wordtitle {
     padding-top: 6%;
+}
+
+.subtitlesub {
+    padding-top: 8%;
 }
