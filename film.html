@@ -13,36 +13,34 @@
     <title>FILM TRENDS FILM</title>
   </head>
   <body>
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-md">
-      <div class="w-100">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">ABOUT</a>
-          </li>
-        </ul>
-      </div>
-      <a class="navbar-brand ml-auto" href="index.html">FILM TRENDS</a>
-      <div class="navbar-collapse w-100">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="subtitle.html">SUBTITLE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="film.html">FILM</a>
-          </li>
-        </ul>
+      <div class="container">
+        <a class="navbar-brand ml-auto" href="index.html">FILM TRENDS</a>
+        <div class="navbar-collapse w-100">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="subtitle.html">SUBTITLE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="film.html">FILM</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <div class="container-fluid">
-      <div class="first">
-        <div class="row rowdark">
-          <div class="col-md-3 offset-1 title">
-            <h5>FILM ANALYSIS</h5>
-          </div>
-          <div class="col-md-7">
+    <!-- Film Introduction -->
+    <div class="filmintro2">
+      <div class="row rowdark">
+        <div class="container">
+          <div class="col-12 text-center py-4">
+            <h4 style="font-size: 26px;">FILM ANALYSIS</h4>
             <p>
               This project analyzes multiple aspects of films from 1927-2010.
               The main purpose of this project is to analyze the genres, IMDb
@@ -52,27 +50,27 @@
         </div>
       </div>
     </div>
-    <div class="list-group sticky-top flex-column flex-md-row">
-      <a href="#imdb" class="list-group-item list-group-item-action"
-        >IMDB ANALYSIS</a
-      >
-      <a href="#genre" class="list-group-item list-group-item-action"
-        >GENRE ANALYSIS</a
-      >
-      <a href="#dialogue" class="list-group-item list-group-item-action"
-        >DIALOGUE ANALYSIS</a
-      >
+    <!-- Middle Navigation Bar -->
+    <div class="container">
+      <div class="list-group flex-row text-center">
+        <a href="#imdb" class="list-group-item list-group-item-action"
+          >IMDB ANALYSIS</a
+        >
+        <a href="#genre" class="list-group-item list-group-item-action"
+          >GENRE ANALYSIS</a
+        >
+        <a href="#dialogue" class="list-group-item list-group-item-action"
+          >DIALOGUE ANALYSIS</a
+        >
+      </div>
     </div>
+    <!-- IMDB Analysis Section -->
     <a name="imdb"></a>
-    <div class="container-fluid rowdark">
-      <br>
-      <br>
-    </div>
-    <div class="container-fluid rowdark">
-      <div class="analysis">
+    <div class="analysis rowdark py-4">
+      <div class="container">
         <div class="row">
-          <div class="col-md-2 offset-1 analysistitle filmtitle">
-            <h5>IMDB ANALYSIS DASHBOARD</h5>
+          <div class="col-md-5" style="margin: 150px 0px 150px 0px;">
+            <h4>IMDB ANALYSIS DASHBOARD</h4>
             <p>
               This dashboard contains two graphs; one contains the genres of
               each film and the other contains the IMDb rating of each film. You
@@ -80,7 +78,7 @@
               specific film or year using the search box.
             </p>
           </div>
-          <div class="col-md-8 offset-1">
+          <div class="col-md-7">
             <div
               class="tableauPlaceholder"
               id="viz1589858573881"
@@ -137,15 +135,12 @@
         </div>
       </div>
     </div>
+    <!-- Genre Analysis Section -->
     <a name="genre"></a>
-    <div class="container-fluid rowdark">
-      <br>
-      <br>
-    </div>
-    <div class="container-fluid">
-      <div class="analysis2">
+    <div class="analysis2 my-4">
+      <div class="container">
         <div class="row">
-          <div class="col-md-8 mb-4">
+          <div class="col-md-7">
             <div
               class="tableauPlaceholder"
               id="viz1593767380048"
@@ -199,8 +194,8 @@
               vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
           </div>
-          <div class="col-md-2 offset-1 analysistitle2 genretitle">
-            <h5>GENRE ANALYSIS DASHBOARD</h5>
+          <div class="col-md-5" style="margin: 150px 0px 150px 0px;">
+            <h4>GENRE ANALYSIS DASHBOARD</h4>
             <p>
               This dashboard analyzes genres, as it contains a stacked bar graph
               of all the film genres throughout the years. It also has a bubble
@@ -212,17 +207,13 @@
         </div>
       </div>
     </div>
-    <br>
+    <!-- Dialogue Analysis Section -->
     <a name="dialogue"></a>
-    <div class="container-fluid rowdark">
-      <br>
-      <br>
-    </div>
-    <div class="container-fluid rowdark">
-      <div class="analysis">
+    <div class="analysis rowdark py-4">
+      <div class="container">
         <div class="row">
-          <div class="col-md-2 offset-1 analysistitle dialoguetitle">
-            <h5>DIALOGUE ANALYSIS DASHBOARD</h5>
+          <div class="col-md-5" style="margin: 150px 0px 150px 0px;">
+            <h4>DIALOGUE ANALYSIS DASHBOARD</h4>
             <p>
               This dashboard contains four graphs which analyze the word count
               broken down by gender for each film, as well as show which actors/
@@ -232,7 +223,7 @@
               dataset.
             </p>
           </div>
-          <div class="col-md-8 offset-1">
+          <div class="col-md-7">
             <div
               class="tableauPlaceholder"
               id="viz1589858798654"
@@ -288,10 +279,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid rowdark">
-      <br>
-      <br>
     </div>
   </body>
 </html>

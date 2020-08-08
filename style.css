@@ -1,146 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
 
-body *
-{
-   font-family: 'Montserrat';
-   color: white;
-   font-size: 14px;
+/* body characteristics */
+body * {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 14px;
 }
 
 /* navigation bar */
 .navbar {
-    background-color: #252727;
+  background-color: #1b1b1e;
 }
 
 .navbar .navbar-brand {
-    font-size: 26px;   
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Work Sans";
 }
 
-.navbar a,
+.navbar a {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Work Sans";
+}
+
+.navbar :hover {
+  color: #4e79a7;
+  text-decoration: none;
+}
+
+h4,
+h5,
 .list-group-item {
-    color: white;
-    font-size: 14px;
+  font-family: "Work Sans";
 }
 
-/* about page cards styling */
-.card-header {
-    color: #252727;
+.list-group-item {
+  font-size: 15px;
 }
 
-.card-body p, .card-header a {
-    font-size: 12px;
-}
-
-.card {
-    margin-bottom: 3%;
-}
-
-/* hover designs */
-.navbar :hover,
-.subtitleintro :hover,
-.filmintro :hover {
-    color: #4E79A7;
-    text-decoration: none;
-}
-
-/* image formatting */
+/* image formatting on home page */
 img {
-    width: 100%;
-    margin-bottom: 3%;
+  width: 100%;
 }
 
-/* dark sections intros */
+/* dark sections background change */
 .rowdark {
-    background-color: #252727;
+  background-color: #1b1b1e;
 }
 
-.mainintro img {
-    margin-top: 1%;
-    margin-bottom: 5%;
-}
-
-/* light sections */
-.subtitleintro,
-.aboutteam,
-.analysis2,
-.filmintro {
-    margin-top: 2%;
-}
-
-/* dark text */
-.subtitleintro h5,
+/* light sectons font change */
+.subtitleintro h4,
 .subtitleintro p,
-.aboutteam h5,
-.aboutteam p,
-.analysistitle2 h5,
-.analysistitle2 p {
-    color: #252727;
+.teamtitle,
+.analysis2 h4,
+.analysis2 p {
+  color: #1b1b1e;
 }
 
-/* title */
-.mainintro h5,
-.aboutintro h5,
-.aboutteam h5,
-.first h5 {
-    font-size: 22px;  
+/* overlay for information about team members */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #1b1b1e;
 }
 
-/* subtitle */
-.subtitleintro h5,
-.filmintro h5,
-.analysistitle h5,
-.analysistitle2 h5 {
-    font-size: 20px;  
+.col-md-4:hover .overlay {
+  opacity: 1;
 }
 
-/* different paddings for design */
-/* 10% padding */
-.analysistitle, 
-.filmsub {
-    padding-top: 10%;    
-}
-
-.title,
-.aboutintro p {
-    padding: 3%;
-}
-
-.first p {
-    padding: 5%;
-}
-
-/* 2% padding */
-.analysis {
-    padding: 2%;
-}
-
-.analysis2 {
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-/* 4% padding */
-.mainparagraph,
-.aboutteam h5,
-.analysistitle2 {
-    padding: 4%;
-}
-
-
-/* 12% padding */
-.countrytitle,
-.abouttitle2,
-.statetitle {
-    padding-top: 12%;
-}
-
-/* 6% padding */
-.dialoguetitle,
-.genretitle,
-.wordtitle {
-    padding-top: 6%;
-}
-
-.subtitlesub {
-    padding-top: 8%;
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
