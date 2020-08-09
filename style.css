@@ -27,9 +27,7 @@ body * {
 }
 
 .navbar .nav-item.active .nav-link,
-.navbar :hover,
-p a:hover,
-.text p a:hover {
+.navbar :hover {
   background-color: #8a817c !important;
   color: white !important;
   text-decoration: none;
@@ -46,7 +44,9 @@ h5,
 }
 
 p a,
-.text p a {
+.text p a,
+p a:hover,
+.text p a:hover {
   color:#4281a4;
 }
 
