@@ -26,8 +26,10 @@ body * {
   font-family: "Work Sans";
 }
 
-.navbar :hover {
-  color: #4e79a7;
+.navbar .nav-item.active .nav-link,
+.navbar :hover  {
+  background-color: #8a817c !important;
+  color: white !important;
   text-decoration: none;
 }
 
