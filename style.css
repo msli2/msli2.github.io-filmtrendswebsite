@@ -27,7 +27,9 @@ body * {
 }
 
 .navbar .nav-item.active .nav-link,
-.navbar :hover  {
+.navbar :hover,
+p a:hover,
+.text p a:hover {
   background-color: #8a817c !important;
   color: white !important;
   text-decoration: none;
@@ -41,6 +43,11 @@ h5,
 
 .list-group-item {
   font-size: 15px;
+}
+
+p a,
+.text p a {
+  color:#4281a4;
 }
 
 /* image formatting on home page */
