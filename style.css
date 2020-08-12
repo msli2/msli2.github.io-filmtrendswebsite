@@ -97,10 +97,7 @@ img {
   text-align: center;
 }
 
-.subtitleintro .carousel-item img {
-  border: 2px solid #1b1b1e;
-}
-
+.subtitleintro .carousel-item img,
 .analysis2 .col-md-8 {
   border: 2px solid #1b1b1e;
 }
